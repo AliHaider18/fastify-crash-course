@@ -1,8 +1,8 @@
 const {
-  getItems,
-  getItem,
+   getItem,
   addItem,
   deleteItem,
+  getItems,
   updateItem,
 } = require('../controllers/items')
 

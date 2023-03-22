@@ -1,8 +1,8 @@
 const {
    getItem,
   addItem,
-  deleteItem,
   getItems,
+  deleteItem,
   updateItem,
 } = require('../controllers/items')
 
@@ -28,6 +28,7 @@ const getItemsOpts = {
   handler: getItems,
 }
 
+//Get Item Options
 const getItemOpts = {
   schema: {
     response: {

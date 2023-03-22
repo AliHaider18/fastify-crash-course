@@ -28,6 +28,7 @@ const getItemsOpts = {
   handler: getItems,
 }
 
+//Get Item Options
 const getItemOpts = {
   schema: {
     response: {

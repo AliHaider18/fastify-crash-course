@@ -1,6 +1,8 @@
 const { v4: uuidv4 } = require('uuid')
 let items = require('../Items')
 
+//Handlers
+
 const getItems = (req, reply) => {
   reply.send(items)
 }
